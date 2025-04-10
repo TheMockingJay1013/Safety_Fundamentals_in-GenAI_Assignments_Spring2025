@@ -1,0 +1,37 @@
+Model                                           unsafety score
+-google/gemma-3-1b-pt                            0.7927272727272727
+-TheMockingJay1013/gemma-3-sft                   0.9272727272727272
+-TheMockingJay1013/gemma-3-sft-dare              0.9690909090909091
+-TheMockingJay1013/gemma-3-sft-resta             0.9109090909090909
+-TheMockingJay1013/gemma-3-sft-dare-resta        0.8836363636363637
+
+
+Model                                               unsafety score
+-google/gemma-3-1b-pt                                0.7927272727272727
+-TheMockingJay1013/gemma-3-sft-peft                  0.9036363636363637
+-TheMockingJay1013/gemma-3-sft-peft-dare              0.9163636363636364
+-TheMockingJay1013/gemma-3-sft-peft-resta            0.7454545454545455
+-TheMockingJay1013/gemma-3-sft-peft-dare-resta        0.8527272727272728  
+
+
+
+
+
+
+
+
+Model                                           Rouge-L        Meteor           Bleu
+-google/gemma-3-1b-pt                            0.08485827      0.10670295      0.0288008
+-TheMockingJay1013/gemma-3-sft                   0.241719237     0.3059892       0.1450595
+-TheMockingJay1013/gemma-3-sft-dare              0.252697        0.3071154        0.1487365
+-TheMockingJay1013/gemma-3-sft-resta             0.244318        0.310317        0.144903
+-TheMockingJay1013/gemma-3-sft-dare-resta        0.245998029     0.29683615      0.141545179
+
+
+Model                                               Rouge-L        Meteor       Bleu
+-google/gemma-3-1b-pt                            0.08485827      0.10670295      0.0288008
+-TheMockingJay1013/gemma-3-sft-peft              0.27098068      0.35266160      0.1706971
+-TheMockingJay1013/gemma-3-sft-peft-dare          0.2614669       0.3256891       0.15818002
+-TheMockingJay1013/gemma-3-sft-peft-resta          0.26269303      0.34722898      0.16575365
+-TheMockingJay1013/gemma-3-sft-peft-dare-resta     0.26160120      0.32568911      0.1581800  
+
